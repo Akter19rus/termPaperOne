@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -22,8 +24,8 @@ public class Main {
         Employee.delimiter();
         System.out.println("Среднее значение зарплат - " + Employee.averageSalary(employees) + "руб");
         Employee.delimiter();
-        System.out.println("Сотрудник с максимальной зарплатой - " + Employee.empMaxSalary(employees));
-        System.out.println("Сотрудник с наименьшей зарплатой - " + Employee.empMinSalary(employees));
+        System.out.println("C максимальной зарплатой " + Employee.empMaxSalary(employees));
+        System.out.println("C наименьшей зарплатой " + Employee.empMinSalary(employees));
 
             Employee.empList(employees);
         }

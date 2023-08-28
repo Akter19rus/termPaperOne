@@ -57,7 +57,10 @@ public class Employee {
 
     public static void fullEmployees(Employee[] employees) {
         for (Employee i : employees) {
-            System.out.println(i);
+            if (employees != null) {
+                System.out.println(i);
+
+            }
         }
     }
 
@@ -74,7 +77,7 @@ public class Employee {
     }
 
     public static double averageSalary(Employee[] employees) {
-        return empTotalSalary(employees) / 2;
+        return empTotalSalary(employees) / employees.length;
     }
 
     public static Employee empMaxSalary(Employee[] employees) {
