@@ -81,9 +81,9 @@ public class Employee {
     }
 
     public static Employee empMaxSalary(Employee[] employees) {
-        Employee maxSalary = null;
+        Employee maxSalary = employees[0];
         for (Employee i : employees) {
-            if (maxSalary == null || i.getSalary() > maxSalary.getSalary()) {
+            if (i.getSalary() > maxSalary.getSalary()) {
                 maxSalary = i;
             }
         }
@@ -91,9 +91,9 @@ public class Employee {
     }
 
     public static Employee empMinSalary(Employee[] employees) {
-        Employee minSalary = null;
+        Employee minSalary = employees[0];
         for (Employee i : employees) {
-            if (minSalary == null || i.getSalary() < minSalary.getSalary()) {
+            if (i.getSalary() < minSalary.getSalary()) {
                 minSalary = i;
             }
         }
