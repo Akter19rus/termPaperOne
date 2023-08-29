@@ -28,7 +28,5 @@ public class Main {
         System.out.println("C наименьшей зарплатой " + Employee.empMinSalary(employees));
 
             Employee.empList(employees);
-
-            //Прошу прощения, все делал в мастер ветке, только сейчас заметил:(
         }
     }
