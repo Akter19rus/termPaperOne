@@ -30,5 +30,10 @@ public class Main {
             Employee.empList(employees);
 
             //Прошу прощения, все делал в мастер ветке, только сейчас заметил:(
+
+        Employee.delimiter();
         }
-    }
+}
+
+
+
